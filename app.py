@@ -21,7 +21,7 @@ if file_upload is not None:
     null = df.isnull()
     # new_df = pd.read_csv(file_upload)
 
-    rows = st.text_input("How many rows do you want to view in your dataset?")
+    rows = st.text_input("How many rows do you want to see in your dataset?")
     if rows:
         st.write("To check for null values")
         null =  st.write(df.head(int(rows)))
