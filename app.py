@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
 
 st.title("Data Handler")
 file_upload = st.file_uploader("Choose a csv file", type='csv')
